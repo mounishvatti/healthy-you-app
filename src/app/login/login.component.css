@@ -1,0 +1,53 @@
+mat-card{
+    max-width: 600px;
+    margin: 2em auto;
+    text-align: center;
+    max-height: 600px;
+
+}
+.loginpageform{
+    color: #3b3b3b;
+    padding: 50px;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 17px );
+    -webkit-backdrop-filter: blur( 17px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.header{
+
+    text-align: center;
+}
+
+.full-width{
+
+    width: 80%;
+
+}
+
+.forgot-password{
+
+    padding-left: 5px;
+}
+
+.email-input{
+
+    padding-top: 15px;
+}
+
+.aLink{
+
+    float: right;
+    padding-right: 60px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: #06be93;
+    color: white;
+}
+
+@import "~bootstrap-icons/font/bootstrap-icons.css"
+
