@@ -1,29 +1,41 @@
-import { TestBed } from '@angular/core/testing';
-import { RouterTestingModule } from '@angular/router/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field'; // Import MatFormFieldModule
 import { AppComponent } from './app.component';
+import { LoginComponent } from 'src/app/login/login.component';
 
 describe('AppComponent', () => {
-  beforeEach(() => TestBed.configureTestingModule({
-    imports: [RouterTestingModule],
-    declarations: [AppComponent]
+  let fixture: ComponentFixture<AppComponent>;
+
+  beforeEach(waitForAsync(() => {
+    TestBed.configureTestingModule({
+      declarations: [
+        AppComponent,
+        LoginComponent,
+      ],
+      imports: [
+        MatCardModule,
+        MatFormFieldModule, // Add MatFormFieldModule to the imports
+      ],
+    }).compileComponents();
   }));
 
-  it('should create the app', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app).toBeTruthy();
+  beforeEach(() => {
+    fixture = TestBed.createComponent(AppComponent);
   });
 
-  it(`should have as title 'healthy-you-app'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
+
+
+  it('should have the title healthy-you-app', () => {
+    const app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('healthy-you-app');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('healthy-you-app app is running!');
+  it('should contain a App component', () => {
+    const loginFixture = TestBed.createComponent(AppComponent);
+    const loginComponent = loginFixture.debugElement.componentInstance;
+    expect(loginComponent).toBeTruthy();
   });
+
+ 
 });
