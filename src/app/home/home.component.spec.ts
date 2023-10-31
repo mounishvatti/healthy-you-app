@@ -1,21 +1,25 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { HomeComponent } from './home.component';
+import { HomeComponent } from './home.component'; // Updated import
 
 describe('HomeComponent', () => {
-  let component: HomeComponent;
-  let fixture: ComponentFixture<HomeComponent>;
+  let fixture: ComponentFixture<HomeComponent>; // Updated
+  let component: HomeComponent; // Updated
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [HomeComponent]
+      declarations: [HomeComponent], // Updated
     });
-    fixture = TestBed.createComponent(HomeComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+
+    fixture = TestBed.createComponent(HomeComponent); // Updated
+    component = fixture.componentInstance; // Updated
   });
 
-  it('should create', () => {
+  it('should create the HomeComponent', () => { // Updated
     expect(component).toBeTruthy();
+  });
+
+  it('should display the title', () => { // Updated
+    const titleElement = fixture.nativeElement.querySelector('h1');
+    expect(titleElement.textContent).toContain('Home Component'); // Updated
   });
 });

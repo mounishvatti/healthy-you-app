@@ -1,7 +1,5 @@
-<div style="background: radial-gradient(circle at -3.1% -4.3%, rgb(57, 255, 186) 0%, rgb(21, 38, 82) 90%);">
-<mat-card>
-    <mat-card-content>
-        <div class="loginpageform" style="margin-top: 100px; margin-bottom: 80px;">
+<div>
+    <div class="loginpageform" style="margin-top: 100px; margin-bottom: 80px;">
         <div class="header">
             <h2 style="font-weight: 600;">Login / Sign-up</h2>
         </div>
@@ -22,8 +20,8 @@
                 <mat-form-field class="full-width" appearance="outline">
                     <mat-label>Password</mat-label>
                     <input formControlName="password" matInput [type]="hide ? 'password' : 'text'" required>
-                    <button mat-icon-button matSuffix (click)="hide = !hide" 
-                        [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                        [attr.aria-pressed]="hide">
                         <mat-icon>{{ hide ? 'visibility_off' : 'visibility' }}</mat-icon>
                     </button>
 
@@ -32,9 +30,7 @@
                     </mat-error>
                 </mat-form-field>
             </div>
-            <button mat-flat-button color="primary" type="submit" style="border: 2px solid #3b3b3b;">Login</button>
+            <button class="btn btn-primary" type="submit" style="border: 1px solid #3b3b3b;">Login</button>
         </form>
-        </div>
-    </mat-card-content>
-</mat-card>
+    </div>
 </div>
