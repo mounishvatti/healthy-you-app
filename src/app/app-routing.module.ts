@@ -8,7 +8,7 @@ import { PharmacyComponent } from './pharmacy/pharmacy.component';
 import { ConsultComponent } from './consult/consult.component';
 
 const routes: Routes = [
-  {path:'home',component:HomeComponent},
+  {path:'',component:HomeComponent},
   {path:'blogs',component:BlogsComponent},
   {path:'yoga',component:YogaComponent},
   {path:'login',component:LoginComponent},
