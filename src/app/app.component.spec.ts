@@ -24,8 +24,6 @@ describe('AppComponent', () => {
     fixture = TestBed.createComponent(AppComponent);
   });
 
-
-
   it('should have the title healthy-you-app', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('healthy-you-app');
@@ -36,6 +34,5 @@ describe('AppComponent', () => {
     const loginComponent = loginFixture.debugElement.componentInstance;
     expect(loginComponent).toBeTruthy();
   });
-
  
 });
