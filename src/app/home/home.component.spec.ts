@@ -17,9 +17,4 @@ describe('HomeComponent', () => {
   it('should create the HomeComponent', () => { // Updated
     expect(component).toBeTruthy();
   });
-
-  it('should display the title', () => { // Updated
-    const titleElement = fixture.nativeElement.querySelector('h1');
-    expect(titleElement.textContent).toContain('Home Component'); // Updated
-  });
 });

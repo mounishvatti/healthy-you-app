@@ -15,7 +15,7 @@ describe('AppComponent', () => {
       ],
       imports: [
         MatCardModule,
-        MatFormFieldModule, // Add MatFormFieldModule to the imports
+        MatFormFieldModule // Add MatFormFieldModule to the imports
       ],
     }).compileComponents();
   }));

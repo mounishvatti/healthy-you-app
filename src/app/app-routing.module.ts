@@ -8,7 +8,7 @@ import { PharmacyComponent } from './pharmacy/pharmacy.component';
 import { ConsultComponent } from './consult/consult.component';
 
 const routes: Routes = [
-  {path:'',component:HomeComponent},
+  {path:'home',component:HomeComponent},
   {path:'blogs',component:BlogsComponent},
   {path:'yoga',component:YogaComponent},
   {path:'login',component:LoginComponent},
@@ -18,6 +18,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule { }
