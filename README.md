@@ -1,6 +1,21 @@
-# HealthyYouApp
+# Healthy You Web Application using Angular.js
 
 Healthy-You is a responsive medical web-portal which provides access to various health blogs, online doctor consultation and pharmacy.
+
+<img src="/src/assets/img/forReadme/1.png" alt="">
+
+# Features
+<img src="/src/assets/img/forReadme/2.png" alt="">
+<img src="/src/assets/img/forReadme/3.png" alt="">
+<img src="/src/assets/img/forReadme/4.png" alt="">
+<img src="/src/assets/img/forReadme/5.png" alt="">
+
+## Tech Stack
+- Frontend: HTML5, CSS3, JS
+
+<img src="/src/assets/img/forReadme/6.png" alt="">
+
+### Note: This website is still under development
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
 
