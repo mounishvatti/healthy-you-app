@@ -2,16 +2,16 @@
 
 Healthy-You is a responsive medical web-portal which provides access to various health blogs, online doctor consultation and pharmacy.
 
-<img src="/src/assets/img/forReadme/1.png" alt="">
+<img src="/src/assets/img/1.png" alt="">
 
 # Features
-<img src="/src/assets/img/forReadme/2.png" alt="">
-<img src="/src/assets/img/forReadme/3.png" alt="">
-<img src="/src/assets/img/forReadme/4.png" alt="">
-<img src="/src/assets/img/forReadme/5.png" alt="">
+<img src="/src/assets/img/2.png" alt="">
+<img src="/src/assets/img/3.png" alt="">
+<img src="/src/assets/img/4.png" alt="">
 
 ## Tech Stack
-- Frontend: HTML5, CSS3, JS
+- Frontend: `AngularJS`, `Bootstrap`, `TypeScript`
+- Testing: `Jasmine`, `Karma`
 
 <img src="/src/assets/img/forReadme/6.png" alt="">
 
