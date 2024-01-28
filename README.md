@@ -1,5 +1,5 @@
 # Healthy You Web Application using Angular.js
-
+### Healthy-You is a responsive medical web-portal which provides access to various health blogs, online doctor consultation and pharmacy.
 ## Tech stack
 ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
@@ -9,8 +9,7 @@
 
 ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
 
-Healthy-You is a responsive medical web-portal which provides access to various health blogs, online doctor consultation and pharmacy.
-
+# Overview
 <img src="/src/assets/img/1.png" alt="">
 
 # Features
