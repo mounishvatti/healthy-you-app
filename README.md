@@ -1,6 +1,6 @@
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Health%20Worker%20Light%20Skin%20Tone.png" alt="Health Worker Light Skin Tone" width="250" height="250" />
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Health%20Worker%20Light%20Skin%20Tone.png" alt="Health Worker Light Skin Tone" width="200" height="200" />
 
-# Healthy You Web Application using Angular.js
+# Healthy-You Web Application using Angular.js
 ### Healthy-You is a responsive medical web-portal which provides access to various health blogs, online doctor consultation and pharmacy.
 ## Tech stack
 ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
