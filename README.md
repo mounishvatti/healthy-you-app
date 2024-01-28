@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Health%20Worker%20Light%20Skin%20Tone.png" alt="Health Worker Light Skin Tone" width="250" height="250" />
+
 # Healthy You Web Application using Angular.js
 ### Healthy-You is a responsive medical web-portal which provides access to various health blogs, online doctor consultation and pharmacy.
 ## Tech stack
