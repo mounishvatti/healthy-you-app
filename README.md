@@ -19,10 +19,6 @@
 <img src="/src/assets/img/3.png" alt="">
 <img src="/src/assets/img/4.png" alt="">
 
-## Tech Stack
-- Frontend: `AngularJS`, `Bootstrap`, `TypeScript`
-- Testing: `Jasmine`, `Karma`
-
 <img src="/src/assets/img/forReadme/6.png" alt="">
 
 ### Note: This website is still under development
